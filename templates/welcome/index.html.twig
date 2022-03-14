@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}JohnDoeNews.{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper {
+        margin: 1em auto;
+        max-width: 800px;
+        width: 95%;
+        font: 18px/1.5 sans-serif;
+    }
+
+    .example-wrapper code {
+        background: #FFFFFF;
+        padding: 2px 6px;
+    }
+</style>
+
+
+<div class="example-wrapper text-center">
+    <h1 class="p-5 ">Bienvenue sur John Doe News !</h1>
+    <img class="" style="width: 30rem" src="images/guy.jpg">
+    <h2 class="p-5 pt-5 pb-5 ">Quelles sont les dernieres nouvelles ?</h2>
+
+    <div class="card-container">
+        <div class="card m-5" style="width: 22rem height: 22rem;">
+            <img class="card-img-top" src="images/foot.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Football</h5>
+                <p class="card-text">Ligue 2 : Amiens se sort du piège à domicile contre Nancy (1-0).</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+            </div>
+        </div>
+
+        <div class="card m-5" style="width: 22rem height: 22rem;">
+            <img class="card-img-top" src="images/incident.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Fait divers</h5>
+                <p class="card-text">Le coup d’envoi d’Amiens – Nancy retardé après des incidents avec les supporters nancéiens, deux interpellations et deux blessés légers.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+            </div>
+        </div>
+
+        <div class="card m-5" style="width: 22rem height: 22rem;">
+            <img class="card-img-top" src="images/tennis.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Une victoire à Amiens que Lucie Nguyen Tan n’est pas près d’oublier</h5>
+                <p class="card-text">La Française Lucie Nguyen Tan (n°8), qui n’a perdu aucun set en cinq matches, a remporté dimanche le tournoi international féminin d’Amiens (15 000 $), en battant en finale l’Allemande Nikol Rivkin, issue des qualifications, 6-4, 7-5. Son premier titre professionnel.</p>
+                <a href="#" class="btn btn-primary">Lire plus</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+{% endblock %}
